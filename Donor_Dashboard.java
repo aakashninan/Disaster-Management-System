@@ -146,7 +146,7 @@ public class Donor_Dashboard extends JFrame {
     private void updateTotalAmount() {
         try {
             Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/disaster", "root", "Akku703499@"
+                "jdbc:mysql://localhost:3306/disaster", "root", "root"
             );
             String sql = "SELECT SUM(amount) AS total FROM accounts";
             PreparedStatement ps = conn.prepareStatement(sql);
