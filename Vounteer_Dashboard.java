@@ -13,7 +13,7 @@ public class Vounteer_Dashboard extends JFrame {
     // DB connection details
     private static final String DB_URL = "jdbc:mysql://localhost:3306/disaster";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "Akku703499@";
+    private static final String DB_PASS = "";
 
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
