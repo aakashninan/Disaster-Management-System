@@ -67,7 +67,7 @@ public class Relief_Camp_Page extends JFrame {
             conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/disaster",
                 "root",
-                ""
+                "root"
             );
 
             String sql = "SELECT * FROM camp";
